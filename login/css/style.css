@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F8FF;
+    /* Warna biru muda */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+/* .menu {
+    justify-content: left;
+}
+
+.menu ul {
+    display: flex;
+} */
+
+.menu ul li {
+    list-style: none;
+    justify-items: left;
+    text-decoration: none;
+}
+
+.form-container {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
